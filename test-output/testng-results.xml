@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7462" started-at="2022-08-30T08:48:21Z" finished-at="2022-08-30T08:48:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7462" started-at="2022-08-30T08:48:21Z" finished-at="2022-08-30T08:48:28Z">
+      <class name="oauthPractice.OauthPractice">
+        <test-method status="PASS" signature="code()[pri:1, instance:oauthPractice.OauthPractice@3a82f6ef]" name="code" duration-ms="18" started-at="2022-08-30T14:18:21Z" finished-at="2022-08-30T14:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- code -->
+        <test-method status="PASS" signature="accessToken()[pri:2, instance:oauthPractice.OauthPractice@3a82f6ef]" name="accessToken" duration-ms="6136" started-at="2022-08-30T14:18:21Z" finished-at="2022-08-30T14:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToken -->
+        <test-method status="FAIL" signature="getCourses()[pri:3, instance:oauthPractice.OauthPractice@3a82f6ef]" name="getCourses" duration-ms="1262" started-at="2022-08-30T14:18:27Z" finished-at="2022-08-30T14:18:28Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[java.lang.Integer cannot be cast to [I]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: java.lang.Integer cannot be cast to [I
+	at oauthPractice.OauthPractice.getCourses(OauthPractice.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourses -->
+      </class> <!-- oauthPractice.OauthPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
